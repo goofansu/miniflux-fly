@@ -2,15 +2,18 @@
 
 [Miniflux](https://github.com/miniflux/v2) self-hosted on [Fly](https://fly.io).
 
-## Deploy
+## Install
 
-### Set Miniflux's username and password
+### Configure the Fly app
+Edit the `fly.toml` file and adjust the `app` and `BASE_URL` values to match your environment.
+
+### Create login credential for Miniflux
 ```shell
 fly secrets set ADMIN_USERNAME='<username>'
 fly secrets set ADMIN_PASSWORD='<password>'
 ```
 
-### Create PostgreSQL
+### Create database
 ```shell
 fly postgres create
 fly postgres attach <postgres-app>
