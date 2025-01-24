@@ -1,6 +1,6 @@
 # miniflux-fly
 
-Miniflux self-hosted on https://fly.io.
+[Miniflux](https://github.com/miniflux/v2) self-hosted on [Fly](https://fly.io).
 
 ## Deploy
 
