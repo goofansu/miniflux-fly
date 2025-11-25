@@ -1,5 +1,8 @@
 # miniflux-fly
 
+> [!IMPORTANT]  
+> Moving to [kamal-services](https://github.com/goofansu/kamal-services).
+
 [Miniflux](https://github.com/miniflux/v2) self-hosted on [Fly](https://fly.io).
 
 ## Install
